@@ -45,11 +45,14 @@ Dashboards are exportable and can aid cosmetic product research and marketing an
 
 1. Clone the repository:
    Navigate to backend directory: cd ingrematch/backend
+
    Create virtual environment & install requirements: python -m venv venv
                                                       venv\Scripts\activate
                                                       pip install -r requirements.txt
+
    Run Flask server: python app.py
-   Open your browser: http://127.0.0.1:5000/
+
+    Open your browser: http://127.0.0.1:5000/
 
 📁 Project folder structure:
 
