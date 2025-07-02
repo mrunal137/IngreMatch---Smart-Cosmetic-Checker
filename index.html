@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IngreMatch</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo"/>
+    <h1>IngreMatch – Smart Cosmetic Checker</h1>
+
+    <!-- 👇 Search bar below the title -->
+    <div class="search-bar">
+      <input type="text" id="product-name" placeholder="Enter product name here">
+      <button onclick="checkProduct()">Check</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
