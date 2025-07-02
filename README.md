@@ -1,6 +1,6 @@
 💄 IngreMatch – Smart Cosmetic Checker
 
-IngreMatch is a Progressive Web App (PWA) that allows users to check the availability and ingredient list of 1,470+ real cosmetics from Sephora - simply by entering the product name.
+IngreMatch is a UI based web application that allows users to check the availability and ingredient list of 1,470+ real cosmetics from Sephora - simply by entering the product name.
 
 🚀 Key Features:
 
