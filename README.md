@@ -52,23 +52,24 @@ Dashboards are exportable and can aid cosmetic product research and marketing an
    Open your browser: http://127.0.0.1:5000/
 
 📁 Project folder structure:
-ingrematch/
-│
-├── backend/
-│ ├── app.py
-│ ├── cosmetics.csv
-│ └── templates/
-│ └── index.html
-│
-├── static/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── script.js
-│ └── img/
-│ ├── logo.png
-│ └── background.jpg
-   
+
+| Folder / File Path          | Description                         |
+| --------------------------- | ----------------------------------- |
+| `ingrematch/`               | Root project directory              |
+| ├── `backend/`              | Flask backend files                 |
+| │   ├── `app.py`            | Main Flask API script               |
+| │   ├── `cosmetics.csv`     | Dataset file with Sephora products  |
+| │   └── `templates/`        | Folder for HTML templates           |
+| │      └── `index.html`     | Main HTML frontend interface        |
+| ├── `static/`               | Static files used by frontend       |
+| │   ├── `css/`              | CSS styling folder                  |
+| │   │   └── `style.css`     | Main stylesheet                     |
+| │   ├── `js/`               | JavaScript folder                   |
+| │   │   └── `script.js`     | JS for frontend logic and API calls |
+| │   └── `img/`              | Images used in the app              |
+| │      ├── `logo.png`       | Logo image shown in the app         |
+| │      └── `background.jpg` | Background image for the webpage    |
+
 
 
 
